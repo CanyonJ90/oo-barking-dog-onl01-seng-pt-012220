@@ -11,10 +11,10 @@ class Dog
 end
 def bark
   puts "woof"
+end
  
 lassie = Dog.new
 lassie.name = "Lassie"
-lassie.bark
-
+lassie.bark = "woof"
  
 puts lassie.name
